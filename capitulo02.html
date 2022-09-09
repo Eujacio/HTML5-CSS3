@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="imagens/Junior.jpeg" type="image/x-icon">
+    <title>Pagina 02</title>
+    <style>
+        body {background-color: rgb(204, 217, 235);}
+      
+     </style>
 </head>
 <body>
     <h1>Capitulo 02</h1>
@@ -15,6 +20,35 @@
     <p> Para fazer um link para dawoload usaremos a tag "dawoload" dentro do link <br>
       Exemplo: <br>
       <a href="imagens/Conta.pdf" type="application/pdf" download="Conta.pdf"> baixar conta de luz</a> </p>
+
+
+      <h2>Favicon</h2>
+
+      <p>Para colocarmos um Favicon no site basta usar a tag "link:favicon" <br>
+       essa tag deve ser usada dentro da area de (head)</p>
+
+       <h2>Imagens dinamicas</h2>
+
+       <p>Tags importantes quando se fala de imagens: <br>
+        <ul>
+            
+            <li>picture</li>
+            <li>source</li>
+        </ul>
+        <p>Exemplo de como fazer com que o site se ajuste a diferentes telas </p>
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/pequena.jpg" type="image/jpg">
+            <source media="(max-width: 1050px)" srcset="imagens/media.jpg" type="image/jpg">
+            <img src="imagens/grande.jpg" alt="imagem grande ">
+        </picture>
+        </p>
+        <h2>Audio</h2>
+        <p>Vamos aprender a reproduzir audios: <br>Para reproduzir audios vamos usar a tag "audio" + os comandos "autoplay"(para iniciar o audio) <br> e "controls"(para mostrar o botão de iniar o audio)</p>
+        <audio src="midia/audio.ogg" controls autoplay></audio>
+        <!---->
+
+
+     
     
 </body>
 </html>
