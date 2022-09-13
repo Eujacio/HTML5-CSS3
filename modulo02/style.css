@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+        body {
+            text-align: justify;
+            background-color: rgb(175, 207, 228);
+        }
+        h1{
+            background-color: rgb(80, 155, 229) ;
+        }
+        h2{
+            color: rgb(199, 102, 47);
+        }
+        p {
+            text-align:justify ;
+        }
+    
+
