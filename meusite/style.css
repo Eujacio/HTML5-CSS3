@@ -1,10 +1,27 @@
 @charset "UTF-8" ;
 
-img{
-    width: 30px;
+* {background-color: rgb(104, 88, 244);}
+
+main{
+    margin-right: 40px;
+    margin-top: 40px;
+    text-align: right;
 }
+.container {
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
 button{
     width: 120px;
     height: 40px;
-
+    border-style: solid;
+}
+h1{
+    text-align: center;
+}
+p {
+    margin-left: 20px;
+    margin-right: 20px;
 }
