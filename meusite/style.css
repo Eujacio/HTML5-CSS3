@@ -1,11 +1,13 @@
 @charset "UTF-8" ;
 
 body{
-    background-color: rgb(83, 83, 240);
+    background-image: url('imagens/wallpaper004.jpg');
     
 }
 main{
-    background-color: rgb(45, 215, 164);
+    border-radius: 10px;
+    border:solid 2px black;
+    background-color: rgb(45, 150, 215);
     text-align: right;
     margin-bottom: 70px;
     padding: 40px;
@@ -40,7 +42,7 @@ p {
     margin-left: 30px;
 }
 .experiencia{
-    background-color: rgb(45, 215, 164);
+    background-color: rgb(45, 150, 215);
     color: rgb(0, 0, 0);
     text-align: justify;
     padding-bottom: 20px;
