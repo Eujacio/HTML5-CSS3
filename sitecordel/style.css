@@ -5,28 +5,27 @@
 }
 header{
     text-align: center;
-    color: azure;
+    color: white;
     background-color: black;
     padding-top: 30px;
     padding-bottom:30px;
     
 }
 
-main{
-    background-image:url('imagens/background001.jpg');
+div#teto{
     background-image:url('imagens/background001.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 div#b1{
-    background-color: azure;
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
 }
 div#b2{
-    color: azure;
+    color: white;
     background-color: rgba(32, 34, 34, 0.585);
     padding-top: 50px;
     padding-bottom: 50px;
@@ -34,10 +33,39 @@ div#b2{
     width: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 30px;
 }
 div#b3{
-    background-color: azure;
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
+    margin-bottom: 30px;
 }
+div#b4{
+    color: white;
+    background-color: rgba(32, 34, 34, 0.585);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+    
+
+    div#b5{
+        margin-top: 50px;
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+    div#fundo{
+        background-image:url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
