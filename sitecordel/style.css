@@ -1,2 +1,43 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom:30px;
+    
+}
 
+main{
+    background-image:url('imagens/background001.jpg');
+    background-image:url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#b1{
+    background-color: azure;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+div#b2{
+    color: azure;
+    background-color: rgba(32, 34, 34, 0.585);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div#b3{
+    background-color: azure;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
