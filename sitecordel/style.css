@@ -20,23 +20,27 @@ header{
     text-align: center;
     color: white;
     background-color: black;
-    padding-top: 40px;
-    padding-bottom:30px;
-    height: 100px;   
+    height: 100px; 
+    padding: 5vh;  
+    padding: 5vw;
 }
 header > h1 {
+    padding-top: 5vh;
+    font-size: 5vw;
     font-family: var(--font2);
     font-variant-caps: small-caps
-
+}
+header > p {
+    padding-bottom: 5vh;
 }
     section{
         line-height: 2em;
         padding-top: 10vh;
         padding-bottom: 10vh;
-    }
-    section > p {
         font-family: var(--font3);
+        font-size: 3.5vw;
     }
+   
     section.imagem{
         background-color: black;
         padding-left: 50px;
