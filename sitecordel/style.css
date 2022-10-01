@@ -30,21 +30,21 @@ header > h1 {
     font-family: var(--font2);
     font-variant-caps: small-caps
 }
-header > p {
-    padding-bottom: 5vh;
-}
+
     section{
         line-height: 2em;
         padding-top: 10vh;
         padding-bottom: 10vh;
         font-family: var(--font3);
         font-size: 3.5vw;
+        
     }
    
     section.imagem{
-        background-color: black;
         padding-left: 50px;
         color: white;
+        background-attachment: fixed;
+        box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.575);
     }
     section.padrao{
         background-color: rgb(255, 255, 255);
@@ -52,19 +52,22 @@ header > p {
     }
     
     section.imagem > p {
-        background-color: rgba(47, 45, 45, 0.39);
-        width: 250px;
+        background-color: rgba(0, 0, 0, 0.453);
+        display: inline-block;
         padding: 20px;
+        border-radius: 10px;
     }
     section#b2{
         background-image: url('imagens/background001.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: right center;
     }
     section#b4{
         background-image: url('imagens/background002.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: right center;
     }
     
     
