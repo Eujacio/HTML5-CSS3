@@ -13,69 +13,37 @@ header{
     padding-bottom:30px;
     height: 100px;   
 }
-
-
-
-div#b1{
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-}
-div#b2{
-    background-image: url('imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-}
-div#b2 > p {
-    color: white;
-    background-color: rgba(32, 34, 34, 0.585);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    width: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 30px;
-}
-div#b3{
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    margin-bottom: 30px;
-}
-div#b4 {
-    background-image: url('imagens/background002.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-}
-  div#b4 > p{
-    
-    color: rgb(253, 251, 251);
-    background-color: rgba(32, 34, 34, 0.585);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    width: 200px;
-    
-    margin-bottom: 50px;
-    margin-left: 30px;
-}
-
-    
-
-    div#b5{
-        margin-top: 50px;
-        background-color: white;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 20px;
-        
+    section{
+        line-height: 2em;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
-
+    section.imagem{
+        background-color: black;
+        padding-left: 50px;
+        color: white;
+    }
+    section.padrao{
+        background-color: rgb(255, 255, 255);
+        padding-left: 50px;
+    }
+    
+    section.imagem > p {
+        background-color: rgba(47, 45, 45, 0.39);
+        width: 250px;
+        padding: 20px;
+    }
+    section#b2{
+        background-image: url('imagens/background001.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section#b4{
+        background-image: url('imagens/background002.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     
     footer{
         background-color: black;
