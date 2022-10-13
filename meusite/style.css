@@ -9,20 +9,10 @@ header{
 background-color: rgb(168, 99, 233);
 height: 180px;
 }
-#fiv{
-    text-align: right;
-    width: 300px;
-    text-align: right;
-   
-}
-
-.ico{
+section > a >img {
     width: 30px;
     height: 30px;
     padding: 10px;
-    margin-top: 20px;
-    margin-left: 20px;
-    
 }
 
 #p1{
