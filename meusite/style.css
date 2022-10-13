@@ -6,13 +6,22 @@
 }
 
 header{
-background-color: rgb(168, 99, 233);
+background-color: rgb(70, 160, 215);
 height: 180px;
 }
-section > a >img {
+header > h1{
+    text-align: center;
+    padding: 40px;
+}
+body{
+    background-image: url(imagens/wallpaper004.jpg);
+    background-attachment: fixed;
+}
+a >img {
     width: 30px;
     height: 30px;
     padding: 10px;
+    
 }
 
 #p1{
