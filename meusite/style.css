@@ -6,14 +6,13 @@
 }
 
 header{
-background-color: blueviolet;
+background-color: rgb(168, 99, 233);
 height: 180px;
 }
 #fiv{
-    display: flex;
+    text-align: right;
     width: 300px;
-    background-color: black;
-    margin;
+    text-align: right;
    
 }
 
