@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="lll" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="est" id="iest">
+                
+            <optgroup label="região centro oeste">
+                <option value="RJ">RIO DE JANEIRO</option>
+                <option value="SP" selected>SÃO PAULO</option>
+                <option value="MG">MINAS GERAIS</option>
+            </optgroup>
+
+            <optgroup label="Região norte">
+                <option value="RO">RONDONIA</option>
+                <option value="AC">ACRE</option>
+                <option value="RO">AMAZONAS</option>
+            </optgroup>
+            </select>
+        </p> 
+        <p>
+            <label for="iprof">Profisão</label>
+            <input type="text" name="prof" id="iprof" list="lista">
+
+            <datalist id="lista">
+                <option >adiministrador</option>
+                <option >Jogador de Futebol</option>
+                <option >Desenvolvedor</option>
+                <option >Policial</option>
+            </datalist>
+
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </form>
+</body>
+</html>
