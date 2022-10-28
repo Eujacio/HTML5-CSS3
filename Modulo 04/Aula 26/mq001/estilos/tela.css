@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*Style para a tela*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+}
